@@ -1,0 +1,19 @@
+application:
+  info:
+    title: "SpringDoc OpenAPI & Redoc"
+    description: "Spring MVC application for Springdoc practices using OpenAPI and Redoc"
+    version: "1.0.0"
+    contact:
+      name: "Said Raiss"
+      email: "saidraiss.raiss@gmail.com"
+      url: "https://github.com/saidRaiss"
+  redoc.enabled: true
+  openapi.enabled: true
+
+springdoc:
+  api-docs:
+    enabled: ${application.openapi.enabled}
+  show-actuator: false
+  swagger-ui:
+    operations-sorter: method
+    tags-sorter: alpha

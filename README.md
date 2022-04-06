@@ -1,2 +1,2 @@
 # springdoc-openapi-redoc
-Spring MVC application for springdoc practices using OpenAPI and Redoc
+Spring MVC application for Springdoc practices using OpenAPI and Redoc
